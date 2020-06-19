@@ -1,6 +1,7 @@
 /** @jsx jsx  */
 import React, { useState } from 'react'
 import { css, jsx } from '@emotion/core'
+// import Pager from "react-bootstrap/lib/Pager";
 import { Pager } from 'react-bootstrap';
 
 import ReactPageScroller from './Scroll'
@@ -15,7 +16,7 @@ import '../index_lan.css'
 export default function LandingPages() {
   const [currentPage, setCurrentPage] = useState(null)
 
-  const handlePageChange = (i:any) => {
+  const handlePageChange = (i) => {
     setCurrentPage(i) // set currentPage number, to reset it from the previous selected.
   }
 
