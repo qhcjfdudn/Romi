@@ -8,17 +8,13 @@ import LandingPage from './pages/LandingPage'
 function App() {
   return (
     <Switch>
-      <Route path="/" component={RobotPage} exact />
+      <Route path="/robot" component={RobotPage} exact />
       <Route
         path="/everyoneisadmineveryoneisadmineveryoneisadmin"
         component={AdminPage}
         exact
       />
-      <Route
-        path="/thisislandingthisislandingthisislanding"
-        component={LandingPage}
-        exact
-      />
+      <Route path="/" component={LandingPage} exact />
     </Switch>
   )
 }

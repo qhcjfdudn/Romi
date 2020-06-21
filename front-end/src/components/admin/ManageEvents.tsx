@@ -1,8 +1,8 @@
 /** @jsx jsx */
 import { css, jsx } from '@emotion/core'
 import { useState, useEffect, useReducer, useCallback } from 'react'
-import { Event } from '../pages/RobotPage'
-import eventApi, { EventInput } from '../api/event'
+import { Event } from '../../pages/RobotPage'
+import eventApi, { EventInput } from '../../api/event'
 
 const initialState: EventInput = {
   name: '',

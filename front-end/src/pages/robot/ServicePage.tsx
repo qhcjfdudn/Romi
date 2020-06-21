@@ -1,7 +1,7 @@
 /** @jsx jsx */
 import { useEffect } from 'react'
 import { css, jsx } from '@emotion/core'
-import { PageToChange, PageParams } from './RobotPage'
+import { PageToChange, PageParams } from '../RobotPage'
 
 interface Service {
   name: string

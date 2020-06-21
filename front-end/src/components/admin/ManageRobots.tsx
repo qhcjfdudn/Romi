@@ -1,8 +1,8 @@
 /** @jsx jsx */
 import { css, jsx } from '@emotion/core'
 import { useState, useEffect, useReducer, useCallback } from 'react'
-import { Robot } from '../pages/RobotPage'
-import robotApi, { RobotInput } from '../api/robot'
+import { Robot } from '../../pages/RobotPage'
+import robotApi, { RobotInput } from '../../api/robot'
 
 const initialState: RobotInput = {
   name: '',

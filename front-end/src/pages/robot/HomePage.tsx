@@ -1,7 +1,7 @@
 /** @jsx jsx */
 import { useState, useEffect } from 'react'
 import { css, jsx } from '@emotion/core'
-import { PageToChange, PageParams, Robot } from './RobotPage'
+import { PageToChange, PageParams, Robot } from '../RobotPage'
 
 interface RobotStatus {
   id: number

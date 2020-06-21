@@ -1,8 +1,8 @@
 /** @jsx jsx */
 import { useState, useEffect } from 'react'
 import { css, jsx } from '@emotion/core'
-import { PageParams } from './RobotPage'
-// import * as tmImage from '@teachablemachine/image'
+import { PageParams } from '../RobotPage'
+import * as tmImage from '@teachablemachine/image'
 
 const Button = css`
   /* position: absolute; */
