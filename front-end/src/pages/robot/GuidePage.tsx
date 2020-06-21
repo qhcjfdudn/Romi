@@ -1,7 +1,7 @@
 /** @jsx jsx  */
 import React, { useEffect } from 'react'
 import { css, jsx } from '@emotion/core'
-import { PageToChange, PageParams, Place, Event } from './RobotPage'
+import { PageToChange, PageParams, Place, Event } from '../RobotPage'
 // import Face from '../assets/face.gif'
 
 interface GuidePageParams extends PageParams {
@@ -32,7 +32,7 @@ function GuidePage({
         align-items: center;
       `}
     >
-      <img src='/image/face.gif' alt="smiley face" height={350} width={350} />
+      <img src="/image/face.gif" alt="smiley face" height={350} width={350} />
       <h2>*** 로미를 따라오세요 팔로팔로미~ ***</h2>
     </div>
   )

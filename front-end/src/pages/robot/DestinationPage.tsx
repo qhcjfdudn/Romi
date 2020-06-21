@@ -7,7 +7,7 @@ import {
   PageToChange,
   Event as OrgEvent,
   RobotStatus,
-} from './RobotPage'
+} from '../RobotPage'
 
 interface DestinationPageParams extends PageParams {
   destinations: Place[] | OrgEvent[]

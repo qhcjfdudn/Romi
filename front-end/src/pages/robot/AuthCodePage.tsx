@@ -1,7 +1,7 @@
 /** @jsx jsx */
 import { useEffect } from 'react'
 import { css, jsx } from '@emotion/core'
-import { PageToChange, PageParams, Place, Event } from './RobotPage'
+import { PageToChange, PageParams, Place, Event } from '../RobotPage'
 
 interface AuthCodePageParams extends PageParams {
   authCode: string

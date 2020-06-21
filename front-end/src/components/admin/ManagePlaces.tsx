@@ -1,8 +1,8 @@
 /** @jsx jsx */
 import { useState, useEffect, useReducer, useCallback } from 'react'
 import { css, jsx } from '@emotion/core'
-import { Place } from '../pages/RobotPage'
-import placeApi, { PlaceInput } from '../api/place'
+import { Place } from '../../pages/RobotPage'
+import placeApi, { PlaceInput } from '../../api/place'
 
 const initialState: PlaceInput = {
   name: '',

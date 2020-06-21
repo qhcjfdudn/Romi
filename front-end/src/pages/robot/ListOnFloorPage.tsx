@@ -1,7 +1,7 @@
 /** @jsx jsx */
 import { useState, useEffect } from 'react'
 import { css, jsx } from '@emotion/core'
-import { PageToChange, PageParams, Place, Event } from './RobotPage'
+import { PageToChange, PageParams, Place, Event } from '../RobotPage'
 
 const Thumbnail = css`
   width: 150px;

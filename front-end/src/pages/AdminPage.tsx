@@ -1,7 +1,7 @@
 import React from 'react'
-import ManagePlaces from '../components/ManagePlaces'
-import ManageEvents from '../components/ManageEvents'
-import ManageRobots from '../components/ManageRobots'
+import ManagePlaces from '../components/admin/ManagePlaces'
+import ManageEvents from '../components/admin/ManageEvents'
+import ManageRobots from '../components/admin/ManageRobots'
 
 function AdminPage() {
   return (
